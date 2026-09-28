@@ -9,3 +9,17 @@
 # ==========================================
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
+
+
+a_number = int(input("ตัวเลข A: "))
+b_number = int(input("ตัวเลข B: "))
+c_number = int(input("ตัวเลข C: "))
+
+if a_number >= b_number and a_number >= c_number:
+    print(a_number)
+
+elif b_number >= a_number and b_number >= c_number:
+    print(b_number)
+    
+else:
+    print(c_number)
