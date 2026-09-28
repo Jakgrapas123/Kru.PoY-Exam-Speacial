@@ -11,3 +11,14 @@
 # ==========================================
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
+
+A_rectangle = int(input("ความยาวด้าน A: "))
+B_rectangle = int(input("ความยาวด้าน B: "))
+C_rectangle = int(input("ความยาวด้าน C: "))
+
+if A_rectangle == B_rectangle == C_rectangle:
+    print("สามเหลี่ยมด้านเท่า")
+elif A_rectangle == B_rectangle or B_rectangle == C_rectangle or A_rectangle == C_rectangle:
+    print("สามเหลี่ยมหน้าจั่ว")
+else:
+    print("สามเหลี่ยมด้านไม่เท่า")
