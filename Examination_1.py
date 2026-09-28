@@ -10,3 +10,14 @@
 # ==========================================
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
+
+price = int(input("ราคาสินค้าต่อชิ้น:"))
+howmany = int(input("จำนวนชิ้นที่ซื้อ:"))
+
+if howmany >= 10:
+    total = price * howmany * 0.8
+elif howmany >= 5:
+    total = price * howmany * 0.9
+else:
+    total = price * howmany 
+print(int(total))
